@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>detodo</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+        }
+
+        .navbar .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .navbar nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .navbar nav ul li {
+            margin-left: 20px;
+        }
+
+        .navbar nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            background-color: #e8f4fb;
+            padding: 50px 20px;
+        }
+
+        .hero-content h1 {
+            font-size: 36px;
+            color:rgb(0, 187, 255);
+        }
+
+        .hero-content p {
+            font-size: 18px;
+            color: #333;
+            margin: 20px 0;
+        }
+
+        .cta-btn {
+            background-color:rgba(233, 250, 192, 1);
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .cta-btn:hover {
+            background-color: #0056b3;
+        }
+
+        .hero-image img,
+        .feature img {
+            width: 300px; /* Tamaño uniforme */
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+
+        .feature {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">la_tuxteñita😍</div>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">historia de mi negocio</a></li>
+                <li><a href="#">Tiendas Virtuales</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>La_tuxteñita💕</h1>
+            <p>El servicio que se ofrece esta enfocado en los arreglos </p>
+            <p> venta de galletas,alfajores y diferentes postres </p>  
+            <button class="cta-btn">Contáctanos</button>
+        </div>
+        <div class="hero-image">
+            <img src="flores.jpg" alt="flores eternas">
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="feature">
+            <img src="galletas.jpg" alt="Galletas">
+            <p>Galletas   </p>
+        </div>
+        <div class="feature">
+            <img src="alfajores.jpg" alt="alfajores">
+            <p>Alfajores</p>
+        </div>
+        <div class="feature">
+            <img src="maismelos.jpg" alt="maismelos">
+            <p>maismelos</p>
+        </div>
+       
+    </section>
+</body>
+</html>
